@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="tools">
+        <button title="Color"><input type="color" value="#ec8c6e" id="palette"></button>
+        <button title="Pencil" id="pen"><i class="fas fa-pen"></i></button>
+        <button title="Eraser" id="eraser"><i class="fas fa-eraser"></i></button>
+        <button title="Size" id="size"><i class="fas fa-caret-left" id="decrease"></i> <span id="sizeSpan">5</span> <i id="increase" class="fas fa-caret-right"></i></button>
+        <button title="Download" id="download"><i class="fas fa-download"></i></button>
+        <span id="clear">Clear</span>
+      </div>
+
+      <canvas id="canvas" width="750" height="500"></canvas>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
